@@ -1,0 +1,47 @@
+h1{
+text-align: center;
+margin: auto;
+padding: 10px;
+}
+#navmenu{
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+#navmenu li{
+    display: inline-flex;
+    margin-right: 50px;
+    
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+.transparent-image{
+    opacity: 1;
+}
+.transparent-image:hover{
+    opacity: 0.01;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
